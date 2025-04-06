@@ -1,0 +1,196 @@
+.pagina{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 54px;
+    background-color: #1f2937;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.enlaces{
+    display: flex;
+    gap: 20px;
+}
+
+.presentacion{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 0px
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    gap: 8px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.retrato img{
+    height: 250px;
+    width: auto;
+}
+
+.fact img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+button{
+    max-width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding:4px;
+    border:none;
+}
+
+.random{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px 64px 0px;
+    gap: 44px;
+    
+}
+
+.subtitle{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.facts{
+    display: flex;
+    justify-content: center;
+    gap: 84px;
+    
+}
+
+.fact{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 150px;
+text-align: center;
+gap:4px;
+}
+
+.solotexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #e5e7eb;
+    max-width: 100%;
+    
+    
+    
+
+}
+
+.quote{
+display: flex;
+font-size: 26px;
+font-style: italic;
+font-weight: 300;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0px 500px;
+
+
+
+}
+
+.artist{
+    margin: 0px 500px;
+    text-align: right;
+    align-self: flex-end;
+    
+}
+
+
+.final{
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja{
+    display: flex;
+    background-color: #3882f6;
+    height: 100px;
+    max-width: 900px;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px;
+    gap:24px;
+    
+}
+
+.cajaizq{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.action{
+    font-weight: bold;
+}
+
+.caja button{
+    
+    border-color: white;
+    border: 2px solid #ffffff;
+    padding: 8px 24px;  
+    box-sizing: content-box;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:24px;
+}
